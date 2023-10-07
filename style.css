@@ -1,6 +1,9 @@
 body {
   font-family: "Hanken Grotesk", sans-serif;
   width: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
 }
 
 p {
@@ -23,10 +26,7 @@ img {
   border-radius: 20px;
   width: 40%;
   margin: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
   display: flex;
   box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.13);
 }
